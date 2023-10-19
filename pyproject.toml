@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mv-onboarding-python-data-structures"
+version = "1.0.0"
+description = ""
+authors = ["Arol Viñolas <arol@arol.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
